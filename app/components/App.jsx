@@ -33,6 +33,7 @@ export default class App extends React.Component {
       return (
         <div>
           <Profile
+            key = {profile.id}
             name = {profile.name}
             age = {profile.age}
             bio = {profile.bio}

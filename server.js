@@ -9,12 +9,14 @@ app.use((req, res, next) => {
 
 let profiles = [
   {
+    id: 0,
     name: 'John',
     age: 30,
     bio: 'enjoys swimming and biking',
     hobbies: ['swimming', 'biking', 'talking']
   },
   {
+    id: 1,
     name: 'Mark',
     age: 22,
     bio: 'enjoys reading',
